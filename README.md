@@ -13,4 +13,5 @@
 
 ## Buidling Basic Structure of Website
 #### Step 1: Setup Basic Website Folder like required image files, html files, css files, js files. Put all the files into single project file, which will be convenience for your later work and push to the GitHub. 
-#### Step 2: Add basic external files. Go to the jQuery website to download the compressed verizon of production jQuery 3.1.1 (http://jquery.com/download/) 
+#### Step 2: Add basic external files. Go to the jQuery website to download the compressed verizon of production jQuery 3.1.1, and move the file to the js file. (http://jquery.com/download/) 
+#### Step 3: Choose the right fonts. Google Fonts is an amazing resource for choosing the fonts. Caution: this sequence of external css link and custom css link matters, remember put the google fonts css external link before the style css link. (https://fonts.google.com/)
