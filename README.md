@@ -11,4 +11,5 @@
 
 ###### ![alt text](/ENERGYSAVINGSDiagram.png "Description goes here")
 
-
+## Buidling Basic Structure of Website
+#### Step 1: Setup Basic Website Folder like required image files, html files, css files, js files. Put all the files into single project file, which will be convenience for your later work and push to the GitHub. 
