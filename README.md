@@ -13,3 +13,4 @@
 
 ## Buidling Basic Structure of Website
 #### Step 1: Setup Basic Website Folder like required image files, html files, css files, js files. Put all the files into single project file, which will be convenience for your later work and push to the GitHub. 
+#### Step 2: Add basic external files. Go to the jQuery website to download the compressed verizon of production jQuery 3.1.1 (http://jquery.com/download/) 
