@@ -127,6 +127,8 @@ $(function () {
 ## Your Work Section 
 ### ![alt text](/work.png)
 
+#### At this stage, the customer's success is automatically converted in three different measurement methods. There is no need for the customer to manually click on the specific button, and each result will automatically loop. Such an approach enables customers to more clearly recognize the importance of their contributions in different areas. The average user to a new unfamiliar web page is not going to risk clicking on multiple buttons at the same time. Most customers will only expolre the content presented on the web will not risk themselves turning to unfamiliar functions even they do have some basic understanding of the function of this product. Automatically jumping each result will better inform customers of their success and encourage them to make persistent efforts.
+
 ## Our Customer Section
 ### ![alt text](/customer.png)
 
