@@ -88,7 +88,7 @@ html,body {
 ```
 
 ## Contribution Section
-#### The contribution section illustrates the web’s goal of introducing the features of this product to the visitor. Then, it gives visitors three options to try the product’s free calculation about energy savings.
+#### The contribution section illustrates the web’s goal of introducing the features of this product to the visitor. Then, it gives visitors three options to try the product’s free calculation about energy savings. Too much written product introductions can make customers tired of reading. Therefore, I choose to use icons to represent the features of the product with concise and powerful explanations. It helps the customer to know excatly what they can do on here.
 ### ![alt text](/contribution.png)
 
 ## About You Section
