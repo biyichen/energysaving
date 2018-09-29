@@ -31,3 +31,24 @@
 #### Regardless of your website’s function (e-commerce, organizational, non-profit, etc.), the home page is like a storefront window. It is a peek inside of your website. And if it is not appealing or intriguing, then chances are it is the only thing your users will see because they will likely move on very quickly.Like that window, a home page is a website’s only chance to show visitors what there is to offer. A website visitor, like a shopper looking in a window, makes a decision within a very short amount of time whether a website will be any benefit to them. I decide make the homepage impressive by having an identity logo and background, providing a clear navigation, supplying both new and return visitors with desired content, providing multiple entry points from the navigation and "view your work" button, or even simply just scrop-down, give users different ways of accessing the site’s content.
 ### ![alt text](/favicon.png)
 ### ![alt text](/home.png)
+
+## Contribution Section
+### ![alt text](/contribution.png)
+
+## About You Section
+### ![alt text](/about.png)
+
+## Your Work Section 
+### ![alt text](/work.png)
+
+## Our Customer Section
+### ![alt text](/customer.png)
+
+## Testimonials Section
+### ![alt text](/testimonial.png)
+
+## Stats Section
+### ![alt text](/stats.png)
+
+## Contract Section
+### ![alt text](/contract.png)
