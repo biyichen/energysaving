@@ -28,7 +28,7 @@
 #### I used Navbar to create the responsive navigation headers for my application. It requires JavaScript plugin and require to use "<nav>" element or if using a more generic element such as a <div>, add a role="navigation" to every navbar to explicitly identify it as a landmark region for users of assistive technologies. (https://getbootstrap.com/)
 
 ## Home Section
-#### Regardless of your website’s function (e-commerce, organizational, non-profit, etc.), the home page is like a storefront window. It is a peek inside of your website. And if it is not appealing or intriguing, then chances are it is the only thing your users will see because they will likely move on very quickly.Like that window, a home page is a website’s only chance to show visitors what there is to offer. A website visitor, like a shopper looking in a window, makes a decision within a very short amount of time whether a website will be any benefit to them. I decide make the homepage impressive by having an identity logo and background, providing a clear navigation, supplying both new and return visitors with desired content, providing multiple entry points from the navigation and "view your work" button, or even simply just scrop-down, give users different ways of accessing the site’s content.
+#### The homepage has a few main jobs: Show visitors what they’re looking for, show them where to start, and establish your company’s credibility. Regardless of your website’s function (e-commerce, organizational, non-profit, etc.), the home page is like a storefront window. It is a peek inside of your website. And if it is not appealing or intriguing, then chances are it is the only thing your users will see because they will likely move on very quickly.Like that window, a home page is a website’s only chance to show visitors what there is to offer. A website visitor, like a shopper looking in a window, makes a decision within a very short amount of time whether a website will be any benefit to them. I decide make the homepage impressive by having an identity logo and Large & Responsive Hero Images background, providing a clear navigation, supplying both new and return visitors with desired content, providing multiple entry points from the navigation and "view your work" button, or even simply just scrop-down, give users different ways of accessing the site’s content.
 ### ![alt text](/favicon.png)
 ### ![alt text](/home.png)
 #### css trick: in the /* General CSS */ section of style.css file. If you simplely change the height of background image to cover the whole screen, the result will not work as the way you want it be. You need to add the css style for  html and body because they are the parent for the #home and #home-cover. The coding are presenting as following:
@@ -88,6 +88,7 @@ html,body {
 ```
 
 ## Contribution Section
+#### The contribution section illustrates the web’s goal of introducing the features of this product to the visitor. Then, it gives visitors three options to try the product’s free calculation about energy savings.
 ### ![alt text](/contribution.png)
 
 ## About You Section
