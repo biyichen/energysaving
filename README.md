@@ -81,7 +81,11 @@ html,body {
     background-attachment: fixed;
 }
 ```
+### CSS animations allows animation of most HTML elements without using JavaScript or Flash! Frist I need to insert the animate css external library into the header section of html file. I would recommend this website to download the animate css file (https://daneden.github.io/animate.css/)and move into the main css file.
 
+```
+<link rel="stylesheet" href="css/animate/animate.css">
+```
 
 ## Contribution Section
 ### ![alt text](/contribution.png)
