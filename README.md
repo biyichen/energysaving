@@ -59,10 +59,18 @@ html,body {
 ```
 <div id="home-content-box-inner" class="text-center">
 ```
-#### In the header section we alread insert the external google fonts css file.It gives me the certain font weights that I can use in the project for different categories, which are 300,400,700.
+#### In the header section I alread insert the external google fonts css file.It gives me the certain font weights that I can use in the project for different categories, which are 300,400,700.
 
 ```
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+```
+I used the hover and focus to create the button effect. When a visitor mouses over it the button can change color to attract attention.
+```
+.btn-white:hover,
+.btn-white:focus {
+    background-color: #fff;
+    color: #41464b;
+}
 ```
 
 ## Contribution Section
