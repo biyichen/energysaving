@@ -48,6 +48,17 @@ html,body {
 
 }
 ```
+#### Used the bootstrap alignment classes can Easily realign text to components without adding the extra code into the css file. 
+```
+<p class="text-left">Left aligned text.</p>
+<p class="text-center">Center aligned text.</p>
+<p class="text-right">Right aligned text.</p>
+<p class="text-justify">Justified text.</p>
+<p class="text-nowrap">No wrap text.</p>
+```
+```
+<div id="home-content-box-inner" class="text-center">
+```
 ## Contribution Section
 ### ![alt text](/contribution.png)
 
