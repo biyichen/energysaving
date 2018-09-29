@@ -64,7 +64,7 @@ html,body {
 ```
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
 ```
-I used the hover and focus to create the button effect. When a visitor mouses over it the button can change color to attract attention.
+#### I used the hover and focus to create the button effect. When a visitor mouses over it the button can change color to attract attention.
 ```
 .btn-white:hover,
 .btn-white:focus {
@@ -72,6 +72,16 @@ I used the hover and focus to create the button effect. When a visitor mouses ov
     color: #41464b;
 }
 ```
+#### Parallax scrolling may look complicated, but it’s actually not too complex and doesn’t require any fancy CSS properties. However, it definitely adds to the user experience and can be eye catching…sometimes even too captivating! And the code can be reused it again and again. It really saves a lot of time to create a complicated look. 
+```
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+```
+
 
 ## Contribution Section
 ### ![alt text](/contribution.png)
