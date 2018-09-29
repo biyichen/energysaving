@@ -88,7 +88,7 @@ html,body {
 ```
 
 ## Contribution Section
-#### The contribution section illustrates the web’s goal of introducing the features of this product to the visitor. Then, it gives visitors three options to try the product’s free calculation about energy savings. Too much written product introductions can make customers tired of reading. Therefore, I choose to use icons to represent the features of the product with concise and powerful explanations. It helps the customer to know excatly what they can do on here.
+#### The contribution section illustrates the web’s goal of introducing the features of this product to the visitor. Then, it gives visitors three options to try the product’s free calculation about energy savings. Too much written product introductions can make customers tired of reading. Therefore, I choose to use icons to represent the features of the product with concise and powerful explanations. It helps the customer to know excatly what they can do on here. And what measurements that we can offer to the customer to estimate how much one customer can contribute to the energy saving. Therefore, we can achieve the interaction with the customer and establish the customer relationship. My idea pretty similar with starhucks offical website. It is pretty straightforward to let customer know what we can help. (https://www.starbucks.com/menu?&utm_term=starbucks&gclid=Cj0KCQjwxbzdBRCoARIsACzIK2kT-bBgj3eD3bc6Wtyz79u31rp9jM9pyUJWEfVGdF7uAmWEjLg9MJUaAtlPEALw_wcB&utm_campaign=BR+-+Brand+-+Starbucks+-+Desktop+-+Exact&utm_medium=cpc&utm_source=google)
 ### ![alt text](/contribution.png)
 
 ## About You Section
