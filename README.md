@@ -19,7 +19,7 @@
 ``` 
    <div class = "container">
      <div class = "row">
-       <div class = "col-*-*">
+       <div class = "col-(lg/md/sm/xs)-*"> //lg-large desktops 1200px and up, md-desktop 992px and up, sm-tablets 768px and up, xs-phones less than 768px
          //content goes here
        </div>
      </div>
