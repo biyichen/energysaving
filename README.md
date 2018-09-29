@@ -110,8 +110,19 @@ $(function () {
 
 ## About You Section
 ### ![alt text](/about.png)
-#### Often most of the “About Us” page—the page that introduces yourself to your website visitor, tells them what you do and builds a rapport that will hopefully turn them into a customer. On the contrary, the content of this part is my goal to encourage users to continue to contribute to energy saving, so my focus is on the customer's practical results to encourage more customers to continue to practice this activity. From a commercial perspective, to attract more return customers. So think of the “About Us” page as long-term dating with a current customer. Do not need too many gorgeous statements to modify, simply highlight the customer's success. 
+#### Often most of the “About” page—the page that introduces yourself to your website visitor, tells them what you do and builds a rapport that will hopefully turn them into a customer. On the contrary, the content of this part is my goal to encourage users to continue to contribute to energy saving, so my focus is on the customer's practical results to encourage more customers to continue to practice this activity. From a commercial perspective, to attract more return customers. So think of the “About Us” page as long-term dating with a current customer. Do not need too many gorgeous statements to modify, simply highlight the customer's success. 
 
+#### Use the google chrome inspect function to examine and edit the CSS modifications.And find the best layout to add to the project css file. Change to border parameters to create the unique style of the "about you" section.
+```
+#about-bg-diagonal {
+    width: 60%;
+    height: 700px;
+    float: right;
+    background-image: url(../img/bg-about.jpg);
+    border-left: 200px solid #fff;
+    border-top: 700px solid transparent;
+}
+```
 
 ## Your Work Section 
 ### ![alt text](/work.png)
