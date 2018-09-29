@@ -132,6 +132,11 @@ $(function () {
 ## Our Customer Section
 ### ![alt text](/customer.png)
 
+#### In the html file, add the bootstrap class="img-responsive" to make the image in a responsive design.
+```
+<img src="img/customer/customer-1.jpg" class="img-responsive" alt="customer member">
+```
+
 ## Testimonials Section
 ### ![alt text](/testimonial.png)
 
