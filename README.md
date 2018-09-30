@@ -208,3 +208,4 @@ $(function () {
 
 ## Contract Section
 ### ![alt text](/contract.png)
+#### Basic contact information – including your name, address, telephone number, and email address. The same information is needed from the client. It is also advantageous to include a interactive message box where customer can leave their message and contract information about the expected communication between you and your client. 
