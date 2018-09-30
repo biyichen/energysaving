@@ -27,6 +27,12 @@
    ```
 #### I used Navbar to create the responsive navigation headers for my application. It requires JavaScript plugin and require to use "<nav>" element or if using a more generic element such as a <div>, add a role="navigation" to every navbar to explicitly identify it as a landmark region for users of assistive technologies. (https://getbootstrap.com/)
 
+#### The X-UA-Compatible meta tag allows web authors to choose what version of Internet Explorer the page should be rendered as. According to Microsoft, when using the X-UA-Compatible tag, it should be as high as possible in the document head.Edge mode tells Internet Explorer to display content in the highest mode available. With Internet Explorer 9, this is equivalent to IE9 mode. If a future release of Internet Explorer supported a higher compatibility mode, pages set to edge mode would appear in the highest mode supported by that version.
+
+```
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+```
+
 ## Home Section
 #### The homepage has a few main jobs: Show visitors what they’re looking for, show them where to start, and establish your company’s credibility. Regardless of your website’s function (e-commerce, organizational, non-profit, etc.), the home page is like a storefront window. It is a peek inside of your website. And if it is not appealing or intriguing, then chances are it is the only thing your users will see because they will likely move on very quickly.Like that window, a home page is a website’s only chance to show visitors what there is to offer. A website visitor, like a shopper looking in a window, makes a decision within a very short amount of time whether a website will be any benefit to them. I decide make the homepage impressive by having an identity logo and Large & Responsive Hero Images background, providing a clear navigation, supplying both new and return visitors with desired content, providing multiple entry points from the navigation and "view your work" button, or even simply just scrop-down, give users different ways of accessing the site’s content.
 ### ![alt text](/favicon.png)
