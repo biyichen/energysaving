@@ -209,3 +209,69 @@ $(function () {
 ## Contract Section
 ### ![alt text](/contract.png)
 #### Basic contact information – including the name, address, telephone number, and email address. The same information is needed from the client. It is also advantageous to include a interactive message box where customer can leave their message and contract information about the expected communication between technicians and the client. 
+
+## Navbar
+#### Add .navbar-toggle-left to the navbar-toggle element to change its position on mobile devices.
+```
+<div class="navbar-header">
+
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+                           <span class="sr-only">Toggle navigation</span>
+                               <span class="icon-bar"></span>
+                               <span class="icon-bar"></span>
+                               <span class="icon-bar"></span>
+                           </button>
+
+```
+#### Use the bootstrap ScrollSpy plugin to automatically update nav targets based on scroll position. Scroll the area below the navbar and watch the active class change.
+```
+<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="65">
+```
+#### Show the navigation bar when window object was selected and the distance scroll from the top less than 50px the class inside the "nav" element will be removed. And select the "back-to-top" element to have effect of "fadeOut()". Otherwise, Add the class inside the "nav" element. And select the "back-to-top" element to have effect of "fadeIn()". 
+```
+// Show/Hide transparent black navigation
+$(function () {
+
+    $(window).scroll(function () {
+
+        if ($(this).scrollTop() < 50) {
+            // hide nav
+            $("nav").removeClass("vesco-top-nav");
+            $("#back-to-top").fadeOut();
+
+        } else {
+            // show nav
+            $("nav").addClass("vesco-top-nav");
+            $("#back-to-top").fadeIn();
+        }
+    });
+});
+```
+
+#### Add the transition "transition: all .5s ease-in-out;" to make the effect smooth.
+```
+.navbar {
+    padding: 20px 0;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+```
+#### Download the jQuery Easing Plugin to get the once effect. (http://gsgd.co.uk/sandbox/jquery/easing/)
+#### Everytime select the event in the class of "a.smooth-scroll" will prevent the default opening the link in url. Declared the variable section and assigned the value. And add the animate effect to the html and body element by selection each section offset from the top and decrase about 64px and the effect duration is about taking 1.23 millionsecond and have the at once effect of "easeInOutExpo".
+```
+// Smooth scrolling
+$(function () {
+
+    $("a.smooth-scroll").click(function (event) {
+
+        event.preventDefault();
+
+        // get/return id like #about, #work, #team and etc
+        var section = $(this).attr("href");
+
+        $('html, body').animate({
+            scrollTop: $(section).offset().top - 64
+        }, 1250, "easeInOutExpo");
+    });
+});
+```
