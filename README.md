@@ -281,3 +281,5 @@ $(function () {
             <i class="fa fa-angle-up"></i>
 </a>
 ```
+## Perfecting Responsive Layout
+#### Use the Media Query to adjust the certain size of the layout. Resize the screen and check all the section to find out the one need to be resize.
