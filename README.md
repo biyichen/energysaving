@@ -283,3 +283,10 @@ $(function () {
 ```
 ## Perfecting Responsive Layout
 #### Use the Media Query to adjust the certain size of the layout. Resize the screen and check all the section to find out the one need to be resize.
+
+## Optimizing Website (SEO)
+#### Increase the amount of visitors to a website by obtaining a high-ranking placement in the search results page of a search engine.
+```
+<meta name="description" content="saving the energy">
+    <meta name="keywords" content="energy saving, car, tree, carbon">
+```
