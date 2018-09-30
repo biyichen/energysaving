@@ -227,7 +227,7 @@ $(function () {
 ```
 <body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="65">
 ```
-#### Show the navigation bar when window object was selected and the distance scroll from the top less than 50px the class inside the "nav" element will be removed. And select the "back-to-top" element to have effect of "fadeOut()". Otherwise, Add the class inside the "nav" element. And select the "back-to-top" element to have effect of "fadeIn()". 
+#### Show the navigation bar when window object was selected and the distance scroll from the top less than 50px the class inside the "nav" element will be removed. And select the "back-to-top" button to have effect of "fadeOut()". Otherwise, Add the class inside the "nav" element. And select the "back-to-top" button to have effect of "fadeIn()". 
 ```
 // Show/Hide transparent black navigation
 $(function () {
