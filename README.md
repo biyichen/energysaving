@@ -130,23 +130,41 @@ $(function () {
 #### At this stage, the customer's success is automatically converted in three different measurement methods. There is no need for the customer to manually click on the specific button, and each result will automatically loop. Such an approach enables customers to more clearly recognize the importance of their contributions in different areas. The average user to a new unfamiliar web page is not going to risk clicking on multiple buttons at the same time. Most customers will only expolre the content presented on the web will not risk themselves turning to unfamiliar functions even they do have some basic understanding of the function of this product. Automatically jumping each result will better inform customers of their success and encourage them to make persistent efforts.
 
 #### Download the Owl Carousel to create the strcuture of Infinity Loop. (https://owlcarousel2.github.io/OwlCarousel2/docs/started-welcome.html)
-#### First, include two CSS files into your HTML head:
+#### First, include two CSS files into the HTML head:
 ```
 <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
 <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 <script src="owlcarousel/owl.carousel.min.js"></script>
 ```
+#### Set HTML, Class "owl-carousel" is mandatory to apply proper styles that come from owl.carousel.css file. Now call the Owl initializer function and the carousel is ready.
+```
+$(function () {
+
+    $("#customers-works").owlCarousel({
+        items: 1,
+        autoplay: true,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true
+    });
+});
+```
 
 ## Our Customer Section
 ### ![alt text](/customer.png)
-
+#### Potential customers indeed want to know who you do business with. Such items forge the underpinnings of trust. Client lists are especially important if your customers are businesses. If you've got some big-name customers, people like to see that.
 #### In the html file, add the bootstrap class="img-responsive" to make the image in a responsive design.
 ```
 <img src="img/customer/customer-1.jpg" class="img-responsive" alt="customer member">
 ```
+#### Make the customer image in the circle style by using the bootstrap class.
+```
+<img src="img/client/client-1.jpg" class="img-responsive img-circle" alt="testimonial">
+```
 
 ## Testimonials Section
 ### ![alt text](/testimonial.png)
+#### One of the best ways to market your business, your products, and services is to let your satisfied customers do it for you. Ask your clients for testimonials or feedback, and prominently feature positive experiences and quotes on this page. 
 
 ## Stats Section
 ### ![alt text](/stats.png)
