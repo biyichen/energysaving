@@ -165,9 +165,46 @@ $(function () {
 ## Testimonials Section
 ### ![alt text](/testimonial.png)
 #### One of the best ways to market your business, your products, and services is to let your satisfied customers do it for you. Ask your clients for testimonials or feedback, and prominently feature positive experiences and quotes on this page. 
-
+#### Adjust the background transparency.
+```
+#testimonials .content-box {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+```
+#### Adjust the customer image size.
+```
+.testimonial img {
+    max-width: 120px;
+    margin: 0 auto 0 auto;
+}
+```
+#### Add the quotation mark before the quotes.
+```
+.testimonial blockquote::after {
+    content: "\201D";
+    bottom: 0;
+    right: 100px;
+}
+```
 ## Stats Section
 ### ![alt text](/stats.png)
+#### This section can show some statisic about the product can help improve the credibility of the product.
+#### Use the counter class to count the statisic number
+```
+<h2><span class="counter"> 1590 </span><span>+</span></h2>
+```
+#### Download the counter-up jquery plugin file.Move to the main js file.query.counterup is a jQuery plugin that animates a number from zero (counting up towards it). It supports counting up:integers 12345; floats 0.1234; formatted numbers; 1,234,567.00; time 21:45:00; Auto-detect for integers, floats or formatted numbers.The plugin will also use the number of decimal places the original number is using.Start counter with a different duration and delay by setting data-counterup-time="" and data-counterup-delay="". also requires waypoints.js. (https://github.com/ciromattia/jquery.counterup)
+#### Set up the counting parameters
+```
+$(function () {
+    $('.counter').counterUp({
+        delay: 10,
+        time: 2000
+    });
+
+});
+```
+
 
 ## Contract Section
 ### ![alt text](/contract.png)
