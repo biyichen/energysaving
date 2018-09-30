@@ -275,3 +275,9 @@ $(function () {
     });
 });
 ```
+## Set up the Button of bottom-up inside the footer section
+```
+<a href="#home" id="back-to-top" class="btn btn-sm btn-blue btn-back-to-top smooth-scroll hidden-sm hidden-xs" title="home" role="button">
+            <i class="fa fa-angle-up"></i>
+</a>
+```
