@@ -1,7 +1,7 @@
 # Energy Savings
 
 #### Designing a web widget where users can visualize the impact of their energy savings. Users who saved energy last month will see an illustration of the number of cars that were “removed from the road” by the user’s energy offset. The illustration should be designed to delight, so that users see it as a reward for saving electricity, and become motivated to continue doing so.
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=uGsfQ7ckXa0" target="_blank"><img src="http://img.youtube.com/vi/uGsfQ7ckXa0/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=Ep99cN955R8" target="_blank"><img src="http://img.youtube.com/vi/Ep99cN955R8/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 ## Set up the web enironment
 #### Install chrome browse 
 (https://www.google.com/chrome/)
